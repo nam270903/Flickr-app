@@ -1,9 +1,11 @@
 package vn.edu.usth.flickrapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
@@ -11,8 +13,15 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-public class WelcomeActivity extends AppCompatActivity {
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
+import vn.edu.usth.flickrapp.Adapter.SlideAdapter;
+import vn.edu.usth.flickrapp.Model.SlideItem;
+
+public class WelcomeActivity extends AppCompatActivity {
     private ImageView iconImage;
     private LinearLayout linearLayout;
     private Button register;
@@ -29,16 +38,16 @@ public class WelcomeActivity extends AppCompatActivity {
         login = findViewById(R.id.login);
 
         linearLayout.animate().alpha(0f).setDuration(10);
-
         TranslateAnimation animation = new TranslateAnimation(0, 0, 0, -1000);
         animation.setDuration(1000);
         animation.setFillAfter(false);
         animation.setAnimationListener(new MyAnimationListener());
+        linearLayout.setAnimation(animation);
 
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(WelcomeActivity.this , SignUp.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP));
+                startActivity(new Intent(WelcomeActivity.this , SignUpActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP));
             }
         });
 
@@ -49,34 +58,48 @@ public class WelcomeActivity extends AppCompatActivity {
             }
         });
 
+        ViewPager viewPager = findViewById(R.id.viewPagerHome);
+        List<SlideItem> slideItems = new ArrayList<>();
+        slideItems.add(new SlideItem("Powerful", "Save all your photos and videos in one place."));
+        slideItems.add(new SlideItem("Organization simplified", "Search, edit, and organize in seconds."));
+        slideItems.add(new SlideItem("Keep your memories safe", "Your photos stay private until you choose to share them."));
+        slideItems.add(new SlideItem("Sharing made easy", "Share with friends, family, and the world."));
+        SlideAdapter adapter = new SlideAdapter(slideItems);
+        viewPager.setAdapter(adapter);
 
-        iconImage.setAnimation(animation);
-        iconImage.setOnClickListener(v -> {
 
 
-        });
+        final int delay = 5000; // 5 giây
+        final Timer timer = new Timer();
 
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        int currentItem = viewPager.getCurrentItem();
+                        int nextItem = (currentItem + 1) % slideItems.size();
+                        viewPager.setCurrentItem(nextItem, true);
+                    }
+                });
+            }
+        }, delay, delay);
     }
 
     private class MyAnimationListener implements Animation.AnimationListener {
 
-
         @Override
         public void onAnimationStart(Animation animation) {
-
         }
 
         @Override
         public void onAnimationEnd(Animation animation) {
-
-            iconImage.clearAnimation();
-            iconImage.setVisibility(View.INVISIBLE);
             linearLayout.animate().alpha(1f).setDuration(1000);
         }
 
         @Override
         public void onAnimationRepeat(Animation animation) {
-
         }
     }
-    }
+}

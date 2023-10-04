@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "410299745435",
+    "firebase_url": "https://flickrdatabase-default-rtdb.firebaseio.com",
+    "project_id": "flickrdatabase",
+    "storage_bucket": "flickrdatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410299745435:android:99a4c5ab2928836766b23e",
+        "android_client_info": {
+          "package_name": "vn.edu.usth.flickrapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARfMJ7vS_NdJ7qeTFQoGomagIfRGQb0EU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

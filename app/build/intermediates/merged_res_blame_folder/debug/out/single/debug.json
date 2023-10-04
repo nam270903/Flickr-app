@@ -1,0 +1,322 @@
+[
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_outline_camera_alt_24.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/outline_camera_alt_24.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_baseline_clear_24.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/baseline_clear_24.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_baseline_add_circle_outline_24.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/baseline_add_circle_outline_24.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/menu_menu.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/menu/menu.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_layout_notifications.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/layout_notifications.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_circle_background.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/circle_background.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_baseline_check_circle_24.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/baseline_check_circle_24.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_my_button_bg.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/my_button_bg.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/menu_menu_bottom_navigation.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/menu/menu_bottom_navigation.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_border.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/border.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_profile.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/profile.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_like.png.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/ic_like.png"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_launcher_background.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_shape.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/shape.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_fragment_public.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/fragment_public.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_signout.png.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/ic_signout.png"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/anim_slide_up.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/anim/slide_up.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_anhflickr4.jpg.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/anhflickr4.jpg"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_flickrpro.png.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/ic_flickrpro.png"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_activity_news.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/activity_news.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_fragment_stats.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/fragment_stats.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_search_view.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/search_view.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_search_black_24dp.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_cmt.png.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/ic_cmt.png"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_fragment_groups.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/fragment_groups.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_option.png.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/ic_option.png"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/xml_data_extraction_rules.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_fragment_notification.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/fragment_notification.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_anhflickr1.jpg.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/anhflickr1.jpg"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_camera.png.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/ic_camera.png"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_fragment_albums.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/fragment_albums.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_baseline_crop_original_24.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/baseline_crop_original_24.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/navigation_mobile_navigation.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/color_custom_color_navigation.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/color/custom_color_navigation.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_slide_item.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/slide_item.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_baseline_disabled_visible_24.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/baseline_disabled_visible_24.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_baseline_close_24.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/baseline_close_24.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_sign_up_activity.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/sign_up_activity.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_liked.png.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/ic_liked.png"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_baseline_format_align_left_24.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/baseline_format_align_left_24.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_bg.jpg.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/bg.jpg"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_baseline_notifications_none_24.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/baseline_notifications_none_24.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_activity_welcome.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_autouploadr.png.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/ic_autouploadr.png"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_logo.png.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/logo.png"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_layout_comment.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/layout_comment.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_activity_follower.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/activity_follower.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/navigation_mobile_navigation2.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/navigation/mobile_navigation2.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_layout_history.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/layout_history.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_layout_list_item.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/layout_list_item.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_dialog_input.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/dialog_input.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_fragment_cam.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/fragment_cam.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_activity_photo_detail.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/activity_photo_detail.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_baseline_person_outline_24.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/baseline_person_outline_24.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_stats.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/stats.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_baseline_search_24.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/baseline_search_24.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_people.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/people.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_layout_image_profile.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/layout_image_profile.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_activity_main.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_ava.png.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/ic_ava.png"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_share.png.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/ic_share.png"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_textlogo.png.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/drawable/textlogo.png"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/xml_backup_rules.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_login_activity.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/login_activity.xml"
+    }
+]

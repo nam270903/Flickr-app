@@ -3,16 +3,20 @@ package vn.edu.usth.flickrapp;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import com.google.android.material.tabs.TabLayout;
+
+import vn.edu.usth.flickrapp.Adapter.ViewPager_Profile_Adapter;
 
 public class TabLayoutActivity extends AppCompatActivity {
 
     TabLayout tabLayout;
     ViewPager2 viewPager2;
-    MyViewPagerAdapter myViewPagerAdapter;
+    ViewPager_Profile_Adapter myViewPagerAdapter;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,7 +24,7 @@ public class TabLayoutActivity extends AppCompatActivity {
 
         tabLayout = findViewById(R.id.tab_layout);
         viewPager2 = findViewById(R.id.view_pager);
-        myViewPagerAdapter = new MyViewPagerAdapter(this);
+        myViewPagerAdapter = new ViewPager_Profile_Adapter(this, null);
         viewPager2.setAdapter(myViewPagerAdapter);
 
 
