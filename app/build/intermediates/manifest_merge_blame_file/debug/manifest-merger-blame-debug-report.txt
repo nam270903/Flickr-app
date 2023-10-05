@@ -9,8 +9,8 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" >
-11-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:5:5-7:23
-11-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:6:9-51
+11-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:5:5-7:23
+11-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:6:9-51
 12    </uses-permission>
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 13-->[com.google.firebase:firebase-auth:22.1.2] /Users/namvu/.gradle/caches/transforms-3/5c1c40d20e906c068ca1f959c7a9daf2/transformed/firebase-auth-22.1.2/AndroidManifest.xml:26:5-79
@@ -28,99 +28,99 @@
 19-->[androidx.core:core:1.9.0] /Users/namvu/.gradle/caches/transforms-3/45dba061abe1e5d647d9f295032bd2d4/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 20
 21    <application
-21-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:9:5-55:19
+21-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:9:5-55:19
 22        android:allowBackup="true"
-22-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:10:9-35
+22-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:10:9-35
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 23-->[androidx.core:core:1.9.0] /Users/namvu/.gradle/caches/transforms-3/45dba061abe1e5d647d9f295032bd2d4/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 24        android:dataExtractionRules="@xml/data_extraction_rules"
-24-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:11:9-65
+24-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:11:9-65
 25        android:debuggable="true"
 26        android:extractNativeLibs="false"
 27        android:fullBackupContent="@xml/backup_rules"
-27-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:12:9-54
+27-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:12:9-54
 28        android:icon="@mipmap/ic_launcher"
-28-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:13:9-43
+28-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:13:9-43
 29        android:label="@string/app_name"
-29-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:14:9-41
+29-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:14:9-41
 30        android:roundIcon="@mipmap/ic_launcher_round"
-30-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:15:9-54
+30-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:15:9-54
 31        android:supportsRtl="true"
-31-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:16:9-35
+31-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:16:9-35
 32        android:testOnly="true"
 33        android:theme="@style/Theme.FlickrApp" >
-33-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:17:9-47
+33-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:17:9-47
 34        <activity
-34-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:19:9-21:40
+34-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:19:9-21:40
 35            android:name="vn.edu.usth.flickrapp.FollowerActivity"
-35-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:20:13-45
+35-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:20:13-45
 36            android:exported="false" />
-36-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:21:13-37
+36-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:21:13-37
 37        <activity
-37-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:22:9-24:40
+37-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:22:9-24:40
 38            android:name="vn.edu.usth.flickrapp.PhotoDetailActivity"
-38-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:23:13-48
+38-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:23:13-48
 39            android:exported="false" />
-39-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:24:13-37
+39-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:24:13-37
 40        <activity
-40-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:25:9-27:39
+40-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:25:9-27:39
 41            android:name="vn.edu.usth.flickrapp.NewsActivity"
-41-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:26:13-41
+41-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:26:13-41
 42            android:exported="true" />
-42-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:27:13-36
+42-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:27:13-36
 43        <activity
-43-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:28:9-30:39
+43-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:28:9-30:39
 44            android:name="vn.edu.usth.flickrapp.LoginActivity"
-44-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:29:13-42
+44-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:29:13-42
 45            android:exported="true" />
-45-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:30:13-36
+45-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:30:13-36
 46        <activity
-46-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:31:9-39:20
+46-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:31:9-39:20
 47            android:name="vn.edu.usth.flickrapp.WelcomeActivity"
-47-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:32:13-44
+47-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:32:13-44
 48            android:exported="true" >
-48-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:33:13-36
+48-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:33:13-36
 49            <intent-filter>
-49-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:34:13-38:29
+49-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:34:13-38:29
 50                <action android:name="android.intent.action.MAIN" />
-50-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:35:17-69
-50-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:35:25-66
+50-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:35:17-69
+50-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:35:25-66
 51
 52                <category android:name="android.intent.category.LAUNCHER" />
-52-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:37:17-77
-52-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:37:27-74
+52-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:37:17-77
+52-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:37:27-74
 53            </intent-filter>
 54        </activity>
 55        <activity
-55-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:40:9-42:39
+55-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:40:9-42:39
 56            android:name="vn.edu.usth.flickrapp.MainActivity"
-56-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:41:13-41
+56-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:41:13-41
 57            android:exported="true" />
-57-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:42:13-36
+57-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:42:13-36
 58        <activity
-58-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:43:9-45:39
+58-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:43:9-45:39
 59            android:name="vn.edu.usth.flickrapp.SearchActivity"
-59-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:44:13-43
+59-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:44:13-43
 60            android:exported="true" />
-60-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:45:13-36
+60-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:45:13-36
 61        <activity
-61-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:46:9-48:39
+61-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:46:9-48:39
 62            android:name="vn.edu.usth.flickrapp.TabLayoutActivity"
-62-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:47:13-46
+62-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:47:13-46
 63            android:exported="true" />
-63-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:48:13-36
+63-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:48:13-36
 64        <activity
-64-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:49:9-51:39
+64-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:49:9-51:39
 65            android:name="vn.edu.usth.flickrapp.SignUpActivity"
-65-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:50:13-43
+65-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:50:13-43
 66            android:exported="true" />
-66-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:51:13-36
+66-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:51:13-36
 67        <activity
-67-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:52:9-54:39
+67-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:52:9-54:39
 68            android:name="vn.edu.usth.flickrapp.Adapter.ViewPager_Profile_Adapter"
-68-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:53:13-62
+68-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:53:13-62
 69            android:exported="true" />
-69-->/Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:54:13-36
+69-->/Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:54:13-36
 70
 71        <service
 71-->[com.google.firebase:firebase-auth-ktx:22.1.2] /Users/namvu/.gradle/caches/transforms-3/1d1fde72212efbaf27c2a3fe5edb4810/transformed/firebase-auth-ktx-22.1.2/AndroidManifest.xml:8:9-14:19

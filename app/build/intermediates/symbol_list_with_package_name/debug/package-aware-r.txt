@@ -3046,6 +3046,7 @@ drawable googleg_standard_color_18
 drawable ic_arrow_back_black_24
 drawable ic_autouploadr
 drawable ic_ava
+drawable ic_back_arrow
 drawable ic_camera
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -3152,6 +3153,7 @@ drawable test_level_drawable
 drawable textlogo
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable uncheck
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3262,10 +3264,12 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnBack
 id btnCamera
 id btnChoose
 id btnClose
 id btnFollow
+id btnReset
 id btnShare
 id btnSignOut
 id btnUpload
@@ -3357,6 +3361,7 @@ id east
 id edge
 id editText
 id edit_query
+id edtEmail
 id elastic
 id embed
 id end
@@ -3369,6 +3374,9 @@ id errorMessageEmail
 id errorMessageFirstName
 id errorMessageLastName
 id errorMessagePass
+id errorMessagePass1
+id errorMessagePass2
+id etEmail2
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3568,6 +3576,7 @@ id postLayout
 id pressed
 id progress_circular
 id progress_horizontal
+id quen
 id radio
 id ratio
 id rectangles
@@ -3739,6 +3748,8 @@ id unlabeled
 id up
 id useLogo
 id usernameTextView
+id validPass1
+id validPass2
 id vertical_only
 id viewPagerHome
 id view_offset_helper
@@ -3877,6 +3888,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_follower
+layout activity_forgot_password
 layout activity_main
 layout activity_news
 layout activity_photo_detail

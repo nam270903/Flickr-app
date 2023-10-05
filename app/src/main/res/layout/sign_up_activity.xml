@@ -127,6 +127,44 @@
             android:textColor="#FF0000"
             android:visibility="gone" />
 
+        <TextView
+            android:id="@+id/errorMessagePass1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12 or more characters"
+            android:textColor="#FF0000"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/errorMessagePass2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No leading spaces"
+            android:textColor="#FF0000"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="15"
+            android:hint="12 or more characters"
+            android:drawableLeft="@drawable/uncheck"
+            android:paddingLeft="25dp"
+            android:layout_gravity="left"
+            android:id="@+id/validPass1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:ems="15"
+            android:hint="No leading spaces"
+            android:drawableLeft="@drawable/uncheck"
+            android:paddingLeft="25dp"
+            android:layout_gravity="left"
+            android:id="@+id/validPass2"/>
+
         <Button
             android:id="@+id/register"
             android:layout_width="400dp"

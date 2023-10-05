@@ -31,6 +31,9 @@ public final class LoginActivityBinding implements ViewBinding {
   public final Button login;
 
   @NonNull
+  public final Button quen;
+
+  @NonNull
   public final Button register;
 
   @NonNull
@@ -40,12 +43,14 @@ public final class LoginActivityBinding implements ViewBinding {
   public final TextInputEditText txtLoginPassword;
 
   private LoginActivityBinding(@NonNull RelativeLayout rootView, @NonNull TextView errorMessage,
-      @NonNull TextView errorMessagePass, @NonNull Button login, @NonNull Button register,
-      @NonNull TextInputEditText txtLoginEmail, @NonNull TextInputEditText txtLoginPassword) {
+      @NonNull TextView errorMessagePass, @NonNull Button login, @NonNull Button quen,
+      @NonNull Button register, @NonNull TextInputEditText txtLoginEmail,
+      @NonNull TextInputEditText txtLoginPassword) {
     this.rootView = rootView;
     this.errorMessage = errorMessage;
     this.errorMessagePass = errorMessagePass;
     this.login = login;
+    this.quen = quen;
     this.register = register;
     this.txtLoginEmail = txtLoginEmail;
     this.txtLoginPassword = txtLoginPassword;
@@ -96,6 +101,12 @@ public final class LoginActivityBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.quen;
+      Button quen = ViewBindings.findChildViewById(rootView, id);
+      if (quen == null) {
+        break missingId;
+      }
+
       id = R.id.register;
       Button register = ViewBindings.findChildViewById(rootView, id);
       if (register == null) {
@@ -115,7 +126,7 @@ public final class LoginActivityBinding implements ViewBinding {
       }
 
       return new LoginActivityBinding((RelativeLayout) rootView, errorMessage, errorMessagePass,
-          login, register, txtLoginEmail, txtLoginPassword);
+          login, quen, register, txtLoginEmail, txtLoginPassword);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

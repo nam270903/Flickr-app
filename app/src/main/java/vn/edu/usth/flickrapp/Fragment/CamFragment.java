@@ -95,7 +95,7 @@ public class CamFragment extends Fragment {
                     BitmapDrawable bitmapDrawable = (BitmapDrawable) drawable;
 
                     ProgressDialog progressDialog = new ProgressDialog(getActivity());
-                    progressDialog.setMessage("Đang tải ảnh...");
+                    progressDialog.setMessage("Loading Image");
                     progressDialog.setCancelable(false);
                     progressDialog.show();
 
@@ -126,7 +126,7 @@ public class CamFragment extends Fragment {
                     uploadTask.addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                         @Override
                         public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                            Toast.makeText(getActivity(), "Tải ảnh thành công", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getActivity(), "Upload successfully", Toast.LENGTH_SHORT).show();
 
                             taskSnapshot.getStorage().getDownloadUrl()
                                     .addOnSuccessListener(new OnSuccessListener<Uri>() {
@@ -160,16 +160,16 @@ public class CamFragment extends Fragment {
                     }).addOnFailureListener(new OnFailureListener() {
                         @Override
                         public void onFailure(@NonNull Exception e) {
-                            Toast.makeText(getActivity(), "Tải ảnh thất bại", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getActivity(), "Upload fail", Toast.LENGTH_SHORT).show();
                             progressDialog.dismiss();
                         }
                     });
                 }
                 else {
                     if (!(drawable instanceof BitmapDrawable))
-                        Toast.makeText(getActivity(), "Chọn ảnh để tải.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Choose images", Toast.LENGTH_SHORT).show();
                     if (TextUtils.isEmpty(ContentImage.getText().toString()))
-                        Toast.makeText(getActivity(), "Nhập nội dung ảnh", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Image caption", Toast.LENGTH_SHORT).show();
                 }
             }
         });

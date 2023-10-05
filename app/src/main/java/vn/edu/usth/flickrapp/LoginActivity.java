@@ -32,6 +32,7 @@ public class LoginActivity extends AppCompatActivity {
     private Button register;
     private EditText txtEmail;
     private EditText txtPassword;
+    private Button forgot_pw;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +43,15 @@ public class LoginActivity extends AppCompatActivity {
         txtPassword = findViewById(R.id.txtLoginPassword);
         login=findViewById(R.id.login);
         register=findViewById(R.id.register);
+        forgot_pw = findViewById(R.id.quen);
+
+        forgot_pw.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this, ForgotPasswordActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
+            }
+        });
 
         register.setOnClickListener(new View.OnClickListener() {
             @Override

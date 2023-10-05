@@ -37,6 +37,12 @@ public final class SignUpActivityBinding implements ViewBinding {
   public final TextView errorMessagePass;
 
   @NonNull
+  public final TextView errorMessagePass1;
+
+  @NonNull
+  public final TextView errorMessagePass2;
+
+  @NonNull
   public final Button login;
 
   @NonNull
@@ -57,19 +63,29 @@ public final class SignUpActivityBinding implements ViewBinding {
   @NonNull
   public final TextInputEditText txtPassword;
 
+  @NonNull
+  public final TextView validPass1;
+
+  @NonNull
+  public final TextView validPass2;
+
   private SignUpActivityBinding(@NonNull RelativeLayout rootView,
       @NonNull TextView errorMessageBirthday, @NonNull TextView errorMessageEmail,
       @NonNull TextView errorMessageFirstName, @NonNull TextView errorMessageLastName,
-      @NonNull TextView errorMessagePass, @NonNull Button login, @NonNull Button register,
+      @NonNull TextView errorMessagePass, @NonNull TextView errorMessagePass1,
+      @NonNull TextView errorMessagePass2, @NonNull Button login, @NonNull Button register,
       @NonNull TextInputEditText txtBirthDay, @NonNull TextInputEditText txtEmail,
       @NonNull TextInputEditText txtFirstName, @NonNull TextInputEditText txtLastName,
-      @NonNull TextInputEditText txtPassword) {
+      @NonNull TextInputEditText txtPassword, @NonNull TextView validPass1,
+      @NonNull TextView validPass2) {
     this.rootView = rootView;
     this.errorMessageBirthday = errorMessageBirthday;
     this.errorMessageEmail = errorMessageEmail;
     this.errorMessageFirstName = errorMessageFirstName;
     this.errorMessageLastName = errorMessageLastName;
     this.errorMessagePass = errorMessagePass;
+    this.errorMessagePass1 = errorMessagePass1;
+    this.errorMessagePass2 = errorMessagePass2;
     this.login = login;
     this.register = register;
     this.txtBirthDay = txtBirthDay;
@@ -77,6 +93,8 @@ public final class SignUpActivityBinding implements ViewBinding {
     this.txtFirstName = txtFirstName;
     this.txtLastName = txtLastName;
     this.txtPassword = txtPassword;
+    this.validPass1 = validPass1;
+    this.validPass2 = validPass2;
   }
 
   @Override
@@ -136,6 +154,18 @@ public final class SignUpActivityBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.errorMessagePass1;
+      TextView errorMessagePass1 = ViewBindings.findChildViewById(rootView, id);
+      if (errorMessagePass1 == null) {
+        break missingId;
+      }
+
+      id = R.id.errorMessagePass2;
+      TextView errorMessagePass2 = ViewBindings.findChildViewById(rootView, id);
+      if (errorMessagePass2 == null) {
+        break missingId;
+      }
+
       id = R.id.login;
       Button login = ViewBindings.findChildViewById(rootView, id);
       if (login == null) {
@@ -178,9 +208,22 @@ public final class SignUpActivityBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.validPass1;
+      TextView validPass1 = ViewBindings.findChildViewById(rootView, id);
+      if (validPass1 == null) {
+        break missingId;
+      }
+
+      id = R.id.validPass2;
+      TextView validPass2 = ViewBindings.findChildViewById(rootView, id);
+      if (validPass2 == null) {
+        break missingId;
+      }
+
       return new SignUpActivityBinding((RelativeLayout) rootView, errorMessageBirthday,
-          errorMessageEmail, errorMessageFirstName, errorMessageLastName, errorMessagePass, login,
-          register, txtBirthDay, txtEmail, txtFirstName, txtLastName, txtPassword);
+          errorMessageEmail, errorMessageFirstName, errorMessageLastName, errorMessagePass,
+          errorMessagePass1, errorMessagePass2, login, register, txtBirthDay, txtEmail,
+          txtFirstName, txtLastName, txtPassword, validPass1, validPass2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

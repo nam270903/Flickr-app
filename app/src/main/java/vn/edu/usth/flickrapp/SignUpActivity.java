@@ -5,7 +5,9 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.text.Editable;
 import android.text.TextUtils;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -48,6 +50,31 @@ public class SignUpActivity extends AppCompatActivity {
         register = findViewById(R.id.register);
         login = findViewById(R.id.login);
 
+
+        txtPassword.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int start, int count, int after) {
+            }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int start, int before, int count) {
+                String pass = charSequence.toString();
+                TextView valid1 = findViewById(R.id.validPass1);
+                TextView valid2 = findViewById(R.id.validPass2);
+
+                if (pass.length() < 12) valid1.setCompoundDrawablesWithIntrinsicBounds(R.drawable.uncheck, 0,0,0);
+                else valid1.setCompoundDrawablesWithIntrinsicBounds(R.drawable.baseline_check_circle_24, 0,0,0);
+
+                if(pass.contains(" ")) valid2.setCompoundDrawablesWithIntrinsicBounds(R.drawable.uncheck, 0, 0, 0);
+                else valid2.setCompoundDrawablesWithIntrinsicBounds(R.drawable.baseline_check_circle_24, 0, 0, 0);
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
+
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -76,6 +103,8 @@ public class SignUpActivity extends AppCompatActivity {
                 TextView errorMessageBirthday = findViewById(R.id.errorMessageBirthday);
                 TextView errorMessageEmail = findViewById(R.id.errorMessageEmail);
                 TextView errorMessagePassword = findViewById(R.id.errorMessagePass);
+
+
                 if(TextUtils.isEmpty(firstName))
                 {
                     errorMessageFirstName.setVisibility(View.VISIBLE);

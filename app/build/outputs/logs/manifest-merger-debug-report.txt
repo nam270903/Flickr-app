@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:2:1-57:12
+ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:2:1-57:12
 MERGED from [androidx.databinding:viewbinding:8.1.2] /Users/namvu/.gradle/caches/transforms-3/c67a35c69da12863408aa1ebb6d6a59c/transformed/viewbinding-8.1.2/AndroidManifest.xml:2:1-7:12
 MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/namvu/.gradle/caches/transforms-3/bbe9a3f3dc67fa245a7744b90ff80dad/transformed/roundedimageview-2.3.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/namvu/.gradle/caches/transforms-3/81fd6eb6b5012136b92ea975fddfa5de/transformed/glide-4.12.0/AndroidManifest.xml:2:1-12:12
@@ -83,17 +83,17 @@ MERGED from [androidx.print:print:1.0.0] /Users/namvu/.gradle/caches/transforms-
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/namvu/.gradle/caches/transforms-3/b0b767a060671820016dccf6d39e9461/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/namvu/.gradle/caches/transforms-3/817a250b4cb62a6b2705197541445128/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:5:5-7:23
+ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:5:5-7:23
 MERGED from [com.google.firebase:firebase-auth:22.1.2] /Users/namvu/.gradle/caches/transforms-3/5c1c40d20e906c068ca1f959c7a9daf2/transformed/firebase-auth-22.1.2/AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:22.1.2] /Users/namvu/.gradle/caches/transforms-3/5c1c40d20e906c068ca1f959c7a9daf2/transformed/firebase-auth-22.1.2/AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-database:20.2.2] /Users/namvu/.gradle/caches/transforms-3/a3b5a7d71872a1f53b86b16395a1ba35/transformed/firebase-database-20.2.2/AndroidManifest.xml:25:5-67
@@ -103,10 +103,10 @@ MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/namvu/.gradle/c
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/namvu/.gradle/caches/transforms-3/5985018cb235695fa83d2f23afa0ed91/transformed/recaptcha-18.1.2/AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/namvu/.gradle/caches/transforms-3/5985018cb235695fa83d2f23afa0ed91/transformed/recaptcha-18.1.2/AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:6:9-51
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:6:9-51
 application
-ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:9:5-55:19
-INJECTED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:9:5-55:19
+ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:9:5-55:19
+INJECTED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:9:5-55:19
 MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/namvu/.gradle/caches/transforms-3/81fd6eb6b5012136b92ea975fddfa5de/transformed/glide-4.12.0/AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/namvu/.gradle/caches/transforms-3/81fd6eb6b5012136b92ea975fddfa5de/transformed/glide-4.12.0/AndroidManifest.xml:10:5-20
 MERGED from [com.google.firebase:firebase-auth-ktx:22.1.2] /Users/namvu/.gradle/caches/transforms-3/1d1fde72212efbaf27c2a3fe5edb4810/transformed/firebase-auth-ktx-22.1.2/AndroidManifest.xml:7:5-15:19
@@ -156,101 +156,101 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/namvu/.gra
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/namvu/.gradle/caches/transforms-3/726546bace9bbe385c0d8cd4ec26ef9b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/namvu/.gradle/caches/transforms-3/726546bace9bbe385c0d8cd4ec26ef9b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /Users/namvu/.gradle/caches/transforms-3/45dba061abe1e5d647d9f295032bd2d4/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:14:9-41
 	android:fullBackupContent
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:12:9-54
 	android:roundIcon
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:15:9-54
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:15:9-54
 	tools:targetApi
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:18:9-29
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:18:9-29
 	android:icon
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:13:9-43
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:17:9-47
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:17:9-47
 	android:dataExtractionRules
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:11:9-65
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:11:9-65
 activity#vn.edu.usth.flickrapp.FollowerActivity
-ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:19:9-21:40
+ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:19:9-21:40
 	android:exported
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:21:13-37
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:20:13-45
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:20:13-45
 activity#vn.edu.usth.flickrapp.PhotoDetailActivity
-ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:22:9-24:40
+ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:22:9-24:40
 	android:exported
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:24:13-37
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:23:13-48
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:23:13-48
 activity#vn.edu.usth.flickrapp.NewsActivity
-ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:25:9-27:39
+ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:25:9-27:39
 	android:exported
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:27:13-36
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:27:13-36
 	android:name
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:26:13-41
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:26:13-41
 activity#vn.edu.usth.flickrapp.LoginActivity
-ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:28:9-30:39
+ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:28:9-30:39
 	android:exported
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:30:13-36
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:29:13-42
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:29:13-42
 activity#vn.edu.usth.flickrapp.WelcomeActivity
-ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:31:9-39:20
+ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:31:9-39:20
 	android:exported
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:33:13-36
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:32:13-44
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:32:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:34:13-38:29
+ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:34:13-38:29
 action#android.intent.action.MAIN
-ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:35:17-69
+ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:35:17-69
 	android:name
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:35:25-66
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:37:17-77
+ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:37:17-77
 	android:name
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:37:27-74
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:37:27-74
 activity#vn.edu.usth.flickrapp.MainActivity
-ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:40:9-42:39
+ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:40:9-42:39
 	android:exported
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:42:13-36
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:42:13-36
 	android:name
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:41:13-41
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:41:13-41
 activity#vn.edu.usth.flickrapp.SearchActivity
-ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:43:9-45:39
+ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:43:9-45:39
 	android:exported
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:45:13-36
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:45:13-36
 	android:name
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:44:13-43
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:44:13-43
 activity#vn.edu.usth.flickrapp.TabLayoutActivity
-ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:46:9-48:39
+ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:46:9-48:39
 	android:exported
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:48:13-36
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:48:13-36
 	android:name
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:47:13-46
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:47:13-46
 activity#vn.edu.usth.flickrapp.SignUpActivity
-ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:49:9-51:39
+ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:49:9-51:39
 	android:exported
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:51:13-36
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:51:13-36
 	android:name
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:50:13-43
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:50:13-43
 activity#vn.edu.usth.flickrapp.Adapter.ViewPager_Profile_Adapter
-ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:52:9-54:39
+ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:52:9-54:39
 	android:exported
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:54:13-36
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:54:13-36
 	android:name
-		ADDED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml:53:13-62
+		ADDED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml:53:13-62
 uses-sdk
-INJECTED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml
-INJECTED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml
+INJECTED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml
+INJECTED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:8.1.2] /Users/namvu/.gradle/caches/transforms-3/c67a35c69da12863408aa1ebb6d6a59c/transformed/viewbinding-8.1.2/AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.1.2] /Users/namvu/.gradle/caches/transforms-3/c67a35c69da12863408aa1ebb6d6a59c/transformed/viewbinding-8.1.2/AndroidManifest.xml:5:5-44
 MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/namvu/.gradle/caches/transforms-3/bbe9a3f3dc67fa245a7744b90ff80dad/transformed/roundedimageview-2.3.0/AndroidManifest.xml:7:5-43
@@ -410,9 +410,9 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/namvu/.gr
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:22.1.2] /Users/namvu/.gradle/caches/transforms-3/5c1c40d20e906c068ca1f959c7a9daf2/transformed/firebase-auth-22.1.2/AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
-		INJECTED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/namvu/Desktop/Flickr-app-main/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/namvu/Desktop/Flickr-app/app/src/main/AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-auth-ktx:22.1.2] /Users/namvu/.gradle/caches/transforms-3/1d1fde72212efbaf27c2a3fe5edb4810/transformed/firebase-auth-ktx-22.1.2/AndroidManifest.xml:8:9-14:19
 MERGED from [com.google.firebase:firebase-auth:22.1.2] /Users/namvu/.gradle/caches/transforms-3/5c1c40d20e906c068ca1f959c7a9daf2/transformed/firebase-auth-22.1.2/AndroidManifest.xml:66:9-72:19
