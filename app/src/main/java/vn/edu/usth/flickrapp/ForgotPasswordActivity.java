@@ -60,12 +60,11 @@ public class ForgotPasswordActivity extends AppCompatActivity {
     }
 
     private void ResetPassword() {
-        pd.setMessage("Please Wait!");
-        pd.show();
+        setProgressBarVisibility(View.VISIBLE);
+        btnReset.setVisibility(View.INVISIBLE);
         mAuth.sendPasswordResetEmail(strEmail).addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
             public void onSuccess(Void unused) {
-                pd.dismiss();
                 Toast.makeText(ForgotPasswordActivity.this, "Reset Password: A link has been sent to your registered Email", Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(ForgotPasswordActivity.this, LoginActivity.class);
                 startActivity(intent);
@@ -74,9 +73,13 @@ public class ForgotPasswordActivity extends AppCompatActivity {
         }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
-                pd.dismiss();
                 Toast.makeText(ForgotPasswordActivity.this, "Error: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+                setProgressBarVisibility(View.INVISIBLE);
+                btnReset.setVisibility(View.VISIBLE);
             }
         });
+    }
+
+    private void setProgressBarVisibility(int visible) {
     }
 }

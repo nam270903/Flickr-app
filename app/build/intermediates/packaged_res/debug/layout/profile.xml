@@ -46,17 +46,18 @@
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pagerProfile"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/view_pagerProfile"
-        android:layout_below="@+id/tab_layout">
-    </androidx.viewpager2.widget.ViewPager2>
+        android:layout_alignTop="@+id/imageAvatar"
+        android:layout_marginTop="145dp"
+        android:background="@android:color/transparent"></androidx.viewpager2.widget.ViewPager2>
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/anhflickr1" />
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/anhflickr1"/>
 
     <ImageView
         android:background="@drawable/ic_autouploadr"
@@ -67,18 +68,18 @@
         android:layout_height="40dp" />
 
     <ImageView
-        android:background="@drawable/ic_flickrpro"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="60dp"
         android:id="@+id/button6"
         android:layout_width="40dp"
-        android:layout_height="40dp" />
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_flickrpro" />
 
     <ImageView
         android:id="@+id/btnSignOut"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:layout_marginLeft="350dp"
+        android:layout_marginLeft="375dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/ic_signout" />
 
@@ -95,7 +96,7 @@
         android:layout_marginLeft="180.5dp" />
 
     <TextView
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:layout_marginTop="140dp"
         android:id="@+id/textNameProfile"
         android:textSize="20dp"
@@ -106,7 +107,7 @@
         android:textStyle="bold"/>
 
     <TextView
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:layout_marginTop="170dp"
         android:id="@+id/txtCoutFollow"
         android:textSize="20dp"

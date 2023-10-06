@@ -4,6 +4,10 @@
         "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
+        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_signout.xml.flat",
+        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/drawable/ic_signout.xml"
+    },
+    {
         "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-merged_res-52:/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/mipmap-xhdpi/ic_launcher_round.webp"
     },
@@ -18,6 +22,10 @@
     {
         "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-merged_res-52:/drawable_baseline_check_circle_24.xml.flat",
         "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/drawable/baseline_check_circle_24.xml"
+    },
+    {
+        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-merged_res-52:/layout_activity_forgot_password.xml.flat",
+        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/activity_forgot_password.xml"
     },
     {
         "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-merged_res-52:/xml_backup_rules.xml.flat",
@@ -40,8 +48,8 @@
         "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/navigation/mobile_navigation2.xml"
     },
     {
-        "merged": "vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_back_arrow.xml.flat",
-        "source": "vn.edu.usth.flickrapp-main-54:/drawable/ic_back_arrow.xml"
+        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_back_arrow.xml.flat",
+        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/drawable/ic_back_arrow.xml"
     },
     {
         "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-merged_res-52:/menu_menu.xml.flat",
@@ -58,6 +66,10 @@
     {
         "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-merged_res-52:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_profile.xml.flat",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/profile.xml"
     },
     {
         "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-merged_res-52:/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -136,6 +148,10 @@
         "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/drawable/logo.png"
     },
     {
+        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_autouploadr.xml.flat",
+        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/drawable/ic_autouploadr.xml"
+    },
+    {
         "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-merged_res-52:/layout_activity_welcome.xml.flat",
         "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/activity_welcome.xml"
     },
@@ -204,6 +220,10 @@
         "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/login_activity.xml"
     },
     {
+        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-merged_res-52:/drawable_anhflickr1.png.flat",
+        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/drawable/anhflickr1.png"
+    },
+    {
         "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_ava.png.flat",
         "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/drawable/ic_ava.png"
     },
@@ -258,10 +278,6 @@
     {
         "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-merged_res-52:/color_custom_color_navigation.xml.flat",
         "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/color/custom_color_navigation.xml"
-    },
-    {
-        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_activity_forgot_password.xml.flat",
-        "source": "vn.edu.usth.flickrapp-main-54:/layout/activity_forgot_password.xml"
     },
     {
         "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-merged_res-52:/drawable_ic_signout.png.flat",
@@ -330,9 +346,5 @@
     {
         "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-merged_res-52:/drawable_baseline_disabled_visible_24.xml.flat",
         "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/drawable/baseline_disabled_visible_24.xml"
-    },
-    {
-        "merged": "vn.edu.usth.flickrapp-merged_res-52:/layout_login_activity.xml.flat",
-        "source": "vn.edu.usth.flickrapp-main-54:/layout/login_activity.xml"
     }
 ]

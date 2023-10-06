@@ -101,26 +101,21 @@ public class CamFragment extends Fragment {
 
                     Bitmap imageBitmap = bitmapDrawable.getBitmap();
 
-                    // Tạo một luồng dữ liệu từ Bitmap
                     ByteArrayOutputStream baos = new ByteArrayOutputStream();
-                    imageBitmap.compress(Bitmap.CompressFormat.JPEG, 100, baos);
+                    imageBitmap.compress(Bitmap.CompressFormat.PNG, 100, baos);
                     byte[] imageData = baos.toByteArray();
 
-                    // Đặt tên cho ảnh trên Firebase Storage
                     Date currentDate = new Date();
                     SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yy_hh:mm:ss");
                     String imageName = dateFormat.format(currentDate);
 
-                    // Tham chiếu đến Firebase Storage
                     FirebaseStorage storage = FirebaseStorage.getInstance();
                     StorageReference storageRef = storage.getReference();
 
                     DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("images_url");
 
-                    // Tham chiếu đến vị trí lưu trữ trên Firebase
                     StorageReference imageRef = storageRef.child("images/" + imageName);
 
-                    // Tải ảnh lên Firebase Storage
                     UploadTask uploadTask = imageRef.putBytes(imageData);
 
                     uploadTask.addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
@@ -169,7 +164,7 @@ public class CamFragment extends Fragment {
                     if (!(drawable instanceof BitmapDrawable))
                         Toast.makeText(getActivity(), "Choose images", Toast.LENGTH_SHORT).show();
                     if (TextUtils.isEmpty(ContentImage.getText().toString()))
-                        Toast.makeText(getActivity(), "Image caption", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Comment required", Toast.LENGTH_SHORT).show();
                 }
             }
         });

@@ -71,7 +71,6 @@ public class SignUpActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-
             }
         });
 
@@ -103,7 +102,6 @@ public class SignUpActivity extends AppCompatActivity {
                 TextView errorMessageBirthday = findViewById(R.id.errorMessageBirthday);
                 TextView errorMessageEmail = findViewById(R.id.errorMessageEmail);
                 TextView errorMessagePassword = findViewById(R.id.errorMessagePass);
-
 
                 if(TextUtils.isEmpty(firstName))
                 {
