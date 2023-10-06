@@ -10,6 +10,9 @@
 
     <uses-permission android:name="android.permission.INTERNET" >
     </uses-permission>
+
+    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <!-- <uses-sdk android:minSdkVersion="14"/> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <permission
@@ -29,7 +32,6 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.FlickrApp" >
         <activity
             android:name="vn.edu.usth.flickrapp.ForgotPasswordActivity"
@@ -42,10 +44,10 @@
             android:exported="false" />
         <activity
             android:name="vn.edu.usth.flickrapp.NewsActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name="vn.edu.usth.flickrapp.LoginActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name="vn.edu.usth.flickrapp.WelcomeActivity"
             android:exported="true" >
@@ -57,19 +59,19 @@
         </activity>
         <activity
             android:name="vn.edu.usth.flickrapp.MainActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name="vn.edu.usth.flickrapp.SearchActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name="vn.edu.usth.flickrapp.TabLayoutActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name="vn.edu.usth.flickrapp.SignUpActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name="vn.edu.usth.flickrapp.Adapter.ViewPager_Profile_Adapter"
-            android:exported="true" />
+            android:exported="false" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
@@ -79,7 +81,10 @@
                 android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
@@ -88,27 +93,18 @@
                 android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
-
-        <provider
-            android:name="androidx.startup.InitializationProvider"
-            android:authorities="vn.edu.usth.flickrapp.androidx-startup"
-            android:exported="false" >
-            <meta-data
-                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-                android:value="androidx.startup" />
-            <meta-data
-                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-                android:value="androidx.startup" />
-            <meta-data
-                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-                android:value="androidx.startup" />
-        </provider>
 
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
@@ -146,10 +142,6 @@
                     android:scheme="recaptcha" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
@@ -157,6 +149,26 @@
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="vn.edu.usth.flickrapp.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider>
 
         <uses-library
             android:name="androidx.window.extensions"

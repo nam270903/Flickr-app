@@ -28,10 +28,10 @@
             android:exported="false" />
         <activity
             android:name=".NewsActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".WelcomeActivity"
             android:exported="true">
@@ -43,19 +43,19 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".SearchActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".TabLayoutActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".SignUpActivity"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".Adapter.ViewPager_Profile_Adapter"
-            android:exported="true" />
+            android:exported="false" />
     </application>
 
 </manifest>

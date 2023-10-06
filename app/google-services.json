@@ -1,14 +1,33 @@
 {
   "project_info": {
-    "project_number": "410299745435",
-    "firebase_url": "https://flickrdatabase-default-rtdb.firebaseio.com",
-    "project_id": "flickrdatabase",
-    "storage_bucket": "flickrdatabase.appspot.com"
+    "project_number": "201982826856",
+    "firebase_url": "https://flickrapp-2a58f-default-rtdb.firebaseio.com",
+    "project_id": "flickrapp-2a58f",
+    "storage_bucket": "flickrapp-2a58f.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:410299745435:android:99a4c5ab2928836766b23e",
+        "mobilesdk_app_id": "1:201982826856:android:78b39a2caa28982e6e9edd",
+        "android_client_info": {
+          "package_name": "com.example.flickrapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGq9DRTaArolO5Vo0eJJJm14QeXzdmzqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201982826856:android:925474e17b36f1e66e9edd",
         "android_client_info": {
           "package_name": "vn.edu.usth.flickrapp"
         }
@@ -16,7 +35,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyARfMJ7vS_NdJ7qeTFQoGomagIfRGQb0EU"
+          "current_key": "AIzaSyDGq9DRTaArolO5Vo0eJJJm14QeXzdmzqE"
         }
       ],
       "services": {

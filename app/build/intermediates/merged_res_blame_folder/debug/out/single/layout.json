@@ -1,98 +1,94 @@
 [
     {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/fragment_stats.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/fragment_stats.xml"
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/search_view.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/search_view.xml"
     },
     {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/layout_history.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/layout_history.xml"
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/activity_welcome.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/activity_welcome.xml"
     },
     {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/profile.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/profile.xml"
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/activity_follower.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/activity_follower.xml"
     },
     {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/fragment_albums.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/fragment_albums.xml"
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/fragment_stats.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/fragment_stats.xml"
     },
     {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/fragment_notification.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/fragment_notification.xml"
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/fragment_public.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/fragment_public.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/dialog_input.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/dialog_input.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/layout_history.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/layout_history.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/layout_notifications.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/layout_notifications.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/sign_up_activity.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/sign_up_activity.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/activity_forgot_password.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/fragment_groups.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/fragment_groups.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/login_activity.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/login_activity.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/activity_news.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/activity_news.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/layout_comment.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/layout_comment.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/activity_main.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/activity_photo_detail.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/activity_photo_detail.xml"
+    },
+    {
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/slide_item.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/slide_item.xml"
     },
     {
         "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/profile.xml",
         "source": "vn.edu.usth.flickrapp-main-54:/layout/profile.xml"
     },
     {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/login_activity.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/login_activity.xml"
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/layout_image_profile.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/layout_image_profile.xml"
     },
     {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/search_view.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/search_view.xml"
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/fragment_notification.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/fragment_notification.xml"
     },
     {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/sign_up_activity.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/sign_up_activity.xml"
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/layout_list_item.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/layout_list_item.xml"
     },
     {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/activity_main.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/activity_main.xml"
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/fragment_albums.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/fragment_albums.xml"
     },
     {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/layout_notifications.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/layout_notifications.xml"
-    },
-    {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/activity_news.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/activity_news.xml"
-    },
-    {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/fragment_cam.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/fragment_cam.xml"
-    },
-    {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/layout_list_item.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/layout_list_item.xml"
-    },
-    {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/layout_image_profile.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/layout_image_profile.xml"
-    },
-    {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/dialog_input.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/dialog_input.xml"
-    },
-    {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/activity_forgot_password.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/activity_forgot_password.xml"
-    },
-    {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/slide_item.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/slide_item.xml"
-    },
-    {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/fragment_public.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/fragment_public.xml"
-    },
-    {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/activity_welcome.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/activity_welcome.xml"
-    },
-    {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/activity_follower.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/activity_follower.xml"
-    },
-    {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/fragment_groups.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/fragment_groups.xml"
-    },
-    {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/layout_comment.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/layout_comment.xml"
-    },
-    {
-        "merged": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/activity_photo_detail.xml",
-        "source": "/Users/namvu/.gradle/daemon/8.0/vn.edu.usth.flickrapp-main-54:/layout/activity_photo_detail.xml"
+        "merged": "vn.edu.usth.flickrapp-mergeDebugResources-51:/layout/fragment_cam.xml",
+        "source": "vn.edu.usth.flickrapp-main-54:/layout/fragment_cam.xml"
     }
 ]
